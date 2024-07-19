@@ -24,7 +24,7 @@ This README file provides a detailed description of the features/columns present
 - Description: Number of previously closed claims that were reopened during the quarter.
 - Type: Integer
 
-### Total_Claims
+### Total_Claims_Actioned
 - Description: Total number of claims payable during the quarter, calculated as the sum of claims outstanding at the beginning of the quarter, claims intimated during the quarter, and claims revived during the quarter.
 - Type: Integer
 
@@ -57,7 +57,11 @@ This README file provides a detailed description of the features/columns present
 - Type: Float
 
 ### Claim_payment_ratio_(%)
-- Description: Claim settlement ratio for Q2 2018, calculated as (claims paid / total claims payable) * 100.
+- Description: Claim settlement ratio for current quarter, calculated as (claims paid / total claims payable) * 100.
+- Type: Float
+
+### Claim_payment_ratio_(%)_prev
+- Description: Claim settlement ratio for previous quarter, calculated as (claims paid / total claims payable) * 100.
 - Type: Float
 
 ## Notes
