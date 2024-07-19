@@ -24,7 +24,7 @@ This README file provides a detailed description of the features/columns present
 - Description: Number of previously closed claims that were reopened during the quarter.
 - Type: Integer
 
-### Total_Claims_Actioned
+### Total_Claims_Payable
 - Description: Total number of claims payable during the quarter, calculated as the sum of claims outstanding at the beginning of the quarter, claims intimated during the quarter, and claims revived during the quarter.
 - Type: Integer
 
