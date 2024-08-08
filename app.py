@@ -3,20 +3,6 @@ import pandas as pd
 import joblib
 import numpy as np
 
-# Background image and custom styles
-st.markdown("""
-<style>
-.stApp {
-    background-image: url("https://www.google.com/imgres?q=insurance%20companies%20in%20kenya&imgurl=https%3A%2F%2Fkenyanwallstreet.com%2Fwp-content%2Fuploads%2F2018%2F09%2Finsurance-companies-in-kenya.jpg&imgrefurl=https%3A%2F%2Fkenyanwallstreet.com%2Fafricas-insurance-premiums-set-to-go-up-report-indicates%2Finsurance-companies-in-kenya%2F&docid=LAJmeS047AaKRM&tbnid=3lhdsYBheaV7LM&vet=12ahUKEwi0xZCqlOaHAxVym_0HHf_zEbQQM3oECFkQAA..i&w=750&h=350&hcb=2&ved=2ahUKEwi0xZCqlOaHAxVym_0HHf_zEbQQM3oECFkQAA");
-    background-size: cover;
-    color: white;
-}
-h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # Load the trained XGBoost model
 model = joblib.load('xgboost_model.pkl')
 
