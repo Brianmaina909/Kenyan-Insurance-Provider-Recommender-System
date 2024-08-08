@@ -30,14 +30,20 @@ st.write("""
 This system helps Kenyan customers find reliable insurance providers based on their non-liability claim settlement history.
 """)
 
-# Sidebar inputs
-st.sidebar.header("Input Data")
+# User inputs
+st.header("Input Data")
+
+# Insurer selection
 insurers = df['Insurer'].unique()
-selected_insurer = st.sidebar.selectbox('Select Insurer', insurers)
+selected_insurer = st.selectbox('Select Insurer', insurers)
+
+# Year selection
 years = df['Date'].dt.year.unique()
-selected_year = st.sidebar.selectbox('Select Year', sorted(years))
+selected_year = st.selectbox('Select Year', sorted(years))
+
+# Quarter selection
 quarters = ['Q1', 'Q2', 'Q3', 'Q4']
-selected_quarter = st.sidebar.selectbox('Select Quarter', quarters)
+selected_quarter = st.selectbox('Select Quarter', quarters)
 
 # Filter data based on selections
 filtered_data = df[(df['Insurer'] == selected_insurer) & (df['Date'].dt.year == selected_year) & (df['Date'].dt.quarter == quarters.index(selected_quarter) + 1)]
