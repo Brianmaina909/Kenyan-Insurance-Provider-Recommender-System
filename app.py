@@ -63,5 +63,6 @@ else:
                               'Claims_declined_ratio_(%)',
                               'Claims_closed_as_no_claims_ratio (%)',
                               'Insurer_Encoded']].values
+    # Predict reliability score
     prediction = model.predict(features)
     st.write(f"Predicted Reliability Score for {selected_insurer} in {selected_year} {selected_quarter}: **{prediction[0]:.2f}**")
