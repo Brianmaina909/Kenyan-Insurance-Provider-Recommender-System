@@ -2,6 +2,20 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
+# Step 2: Add Custom CSS or Streamlit Theme
+st.markdown("""
+<style>
+.stApp {
+    background-color: #f0f2f6;
+    background-image: url('https://drive.google.com/file/d/1d8WEetcZ1NO97yBsRwK5N7ptdy5bfifb/view?usp=drive_link/background.jpg');
+    background-size: cover;
+    color: black;
+}
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Load the trained XGBoost model
 model = joblib.load('xgboost_model.pkl')
