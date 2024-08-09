@@ -6,11 +6,14 @@ import numpy as np
 # Display header images
 st.image(['Insurers.png'], width=600, use_column_width='auto')
 
-#Custom CSS or Streamlit Theme
 st.markdown("""
     <style>
     .stApp {
-        background-image:('background image 2.jpeg');
+        background-image: url('background image 2.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
         background-color: lightblue;
         color: black;
     }
