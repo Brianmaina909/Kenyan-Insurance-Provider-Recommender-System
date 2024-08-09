@@ -3,20 +3,19 @@ import pandas as pd
 import joblib
 import numpy as np
 
-# Step 2: Add Custom CSS with Background Image from Google Drive
+# Basic CSS Test
 st.markdown("""
-<style>
-.stApp {
-    background-color: #f0f2f6;
-    background-image: url('Insurers.png');
-    background-size: cover;
-    color: black;
-}
-h1, h2, h3 {
-    font-family: 'Helvetica', sans-serif;
-}
-</style>
-""", unsafe_allow_html=True)
+    <style>
+    .stApp {
+        background-color: lightblue;
+        color: black;
+    }
+    h1, h2, h3 {
+        font-family: 'Helvetica', sans-serif;
+        color: darkblue;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # Load the trained XGBoost model
 model = joblib.load('xgboost_model.pkl')
