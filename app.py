@@ -3,10 +3,14 @@ import pandas as pd
 import joblib
 import numpy as np
 
- #Display header images
-st.image(['Insurers.png','background image.jpeg'], width=600, use_column_width='auto')
+# Step 1: Display header images on extreme ends
+st.markdown("""
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="Insurers.png" alt="Left Image" style="width: 20%;">
+    <img src="background image.jpeg" alt="Right Image" style="width: 20%;">
+</div>
+""", unsafe_allow_html=True)
 
-# Basic CSS Test
 st.markdown("""
     <style>
     .stApp {
