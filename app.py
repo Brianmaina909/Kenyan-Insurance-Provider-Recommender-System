@@ -6,6 +6,7 @@ import numpy as np
 # Display header images
 st.image(['Insurers.png'], width=600, use_column_width='auto')
 
+#Custom CSS or Streamlit Theme
 st.markdown("""
     <style>
     .stApp {
