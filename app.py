@@ -34,7 +34,7 @@ This system helps Kenyan customers find reliable insurance providers based on th
 """)
 
 # User inputs
-st.header("Input Data")
+st.header("Select Insurer")
 
 # Insurer selection
 insurers = df['Insurer'].unique()
