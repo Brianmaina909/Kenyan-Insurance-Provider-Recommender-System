@@ -10,6 +10,7 @@ st.image(['Insurers.png'], width=600, use_column_width='auto')
 st.markdown("""
     <style>
     .stApp {
+        background-image: url('https://raw.githubusercontent.com/yourusername/yourrepo/main/background_2_image.png');
         background-color: lightblue;
         color: black;
     }
