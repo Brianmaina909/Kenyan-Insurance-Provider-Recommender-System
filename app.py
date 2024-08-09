@@ -14,6 +14,7 @@ st.markdown("""
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
+        background-color: lightblue;
         color: black;
     }
     h1, h2, h3 {
