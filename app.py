@@ -10,7 +10,7 @@ st.image(['Insurers.png'], width=600, use_column_width='auto')
 st.markdown("""
     <style>
     .stApp {
-        background-image: url('https://raw.githubusercontent.com/yourusername/yourrepo/main/background_2_image.png');
+        background-image: url('https://github.com/Brianmaina909/Kenyan-Insurance-Provider-Recommender-System/blob/86f8f80ddd4f86ad1cb77237abd102a0a6ae8bf7/background%20image%202.jpeg');
         background-color: lightblue;
         color: black;
     }
