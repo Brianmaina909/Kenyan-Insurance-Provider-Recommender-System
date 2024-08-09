@@ -8,7 +8,7 @@ st.markdown("""
 <style>
 .stApp {
     background-color: #f0f2f6;
-    background-image: url('https://drive.google.com/uc?export=view&id=1d8WEetcZ1NO97yBsRwK5N7ptdy5bfifb');
+    background-image: url('Insurers.png');
     background-size: cover;
     color: black;
 }
