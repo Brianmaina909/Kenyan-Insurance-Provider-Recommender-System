@@ -3,12 +3,12 @@ import pandas as pd
 import joblib
 import numpy as np
 
-#Step 2: Add Custom CSS or Streamlit Theme
+# Step 2: Add Custom CSS with Background Image from Google Drive
 st.markdown("""
 <style>
 .stApp {
     background-color: #f0f2f6;
-    background-image: url('https://drive.google.com/file/d/1d8WEetcZ1NO97yBsRwK5N7ptdy5bfifb/view?usp=drive_link/background.jpg');
+    background-image: url('https://drive.google.com/uc?export=view&id=1d8WEetcZ1NO97yBsRwK5N7ptdy5bfifb');
     background-size: cover;
     color: black;
 }
@@ -30,7 +30,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 # Streamlit app
 st.title("Insurance Provider Recommender")
 st.write("""
-This system helps Kenyan customers find reliable insurance providers based on their non liabilityclaim settlement history.
+This system helps Kenyan customers find reliable insurance providers based on their non-liability claim settlement history.
 """)
 
 # User inputs
