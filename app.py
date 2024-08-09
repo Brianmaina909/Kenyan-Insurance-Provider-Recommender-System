@@ -32,7 +32,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 # Streamlit app
 st.title("Insurance Provider Recommender")
 st.write("""
-This system helps Kenyan customers find reliable insurance providers based on their non-liability claim settlement history.
+This system helps Kenyan customers rate the reliability of insurance providers based on their non-liability claim settlement history.
 """)
 
 # User inputs
