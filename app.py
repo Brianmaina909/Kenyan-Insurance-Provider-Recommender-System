@@ -11,6 +11,7 @@ st.markdown("""
     <style>
     .stApp {
         background-color: lightblue;
+        background-image: url('Insurers.png');
         color: black;
     }
     h1, h2, h3 {
