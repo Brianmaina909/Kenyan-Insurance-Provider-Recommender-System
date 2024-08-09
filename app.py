@@ -4,14 +4,13 @@ import joblib
 import numpy as np
 
  #Display header images
-st.image(['Insurers.png'], width=600, use_column_width='auto')
+st.image(['Insurers.png','background Image.jpeg' ], width=600, use_column_width='auto')
 
 # Basic CSS Test
 st.markdown("""
     <style>
     .stApp {
         background-color: lightblue;
-        background-image: url('Insurers.png');
         color: black;
     }
     h1, h2, h3 {
@@ -37,11 +36,11 @@ This system helps Kenyan customers find reliable insurance providers based on th
 """)
 
 # User inputs
-st.header("Select Insurer")
+st.header("Select Insurer and Rating Metrics")
 
 # Insurer selection
 insurers = df['Insurer'].unique()
-selected_insurer = st.selectbox('Select Insurer', insurers)
+selected_insurer = st.selectbox('Pick Insurer', insurers)
 
 # Year selection
 years = df['Date'].dt.year.unique()
