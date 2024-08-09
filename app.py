@@ -9,7 +9,7 @@ st.image(['Insurers.png'], width=600, use_column_width='auto')
 st.markdown("""
     <style>
     .stApp {
-        background-image: url('background image 2.jpeg');
+        background-image: url('802169.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
