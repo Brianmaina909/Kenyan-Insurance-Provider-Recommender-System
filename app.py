@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
  #Display header images
-st.image(['Insurers.png', 'background image.jpeg'], width=600, use_column_width='auto')
+st.image(['Insurers.png'], width=600, use_column_width='auto')
 
 # Basic CSS Test
 st.markdown("""
